@@ -1,5 +1,7 @@
 # Markdown Previewer
 
+A markdown previewer demo, stored with Redux, parsed with Marked and rendered with React.
+
 ### implementation
 
 - React
