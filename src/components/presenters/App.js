@@ -7,9 +7,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <MarkdownInput/>
-        <MarkdownView/>
+      <div className="app">
+        <header>
+          <h1>Markdown Previewer Using React.js</h1>
+          <p>By: Jacob Tegtmeier</p>
+        </header>
+        <div className="main">
+          <MarkdownInput/>
+          <MarkdownView/>
+        </div>
       </div>
     );
   }

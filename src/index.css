@@ -1,5 +1,8 @@
-body {
+html, body {
+  display: flex;
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow: hidden;
   font-family: sans-serif;
 }

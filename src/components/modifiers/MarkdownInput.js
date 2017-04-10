@@ -11,8 +11,8 @@ let MarkdownInput = ({dispatch}) => {
   }
 
   return (
-    <div>
-      <textarea ref={node => input = node} onInput={handleInput} placeholder="Type in some markdown..." />
+    <div className="input">
+      <textarea ref={node => input = node} onInput={handleInput} placeholder="Type in some markdown to view it on the left..." />
     </div>
   )
 }

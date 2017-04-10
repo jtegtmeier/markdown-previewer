@@ -2,9 +2,7 @@ import React, {PropTypes} from 'react'
 import {connect} from 'react-redux'
 
 let MarkdownView = ({parsedMarkdown}) => (
-  <div>
-    {parsedMarkdown}
-  </div>
+  <div className="view" dangerouslySetInnerHTML={{__html: parsedMarkdown}}></div>
 )
 
 MarkdownView.propTypes = {
